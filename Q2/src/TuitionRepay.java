@@ -3,10 +3,15 @@ import.java.util.Scanner;
 public class TuitionRepay {
 	Scanner input = new Scanner(System.in);
 	
+	public static void main(String[] args) {
+		
+		
+	}
 	
-	static double fv( double r,double n,double y,double p,boolean t){
-		boolean t == true
-				double p = 0;
+		TuitionRepay() {
+			
+		}
+	
 		
 		System.out.print("Enter the yearly tuition cost; ");
 		double PMT = input.newDouble();
@@ -23,7 +28,7 @@ public class TuitionRepay {
 		double y = input.newDouble();
 		}
 	 
-	 System.out.printIn("The total cost of tuition is :" + fv);
+	 System.out.printIn("The total cost of tuition is $" + ___________ );
 	
 
 }
