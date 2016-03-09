@@ -7,7 +7,12 @@ public class TuitionRepay {
 	static double fv( double r,double n,double y,double p,boolean t){
 		boolean t == true
 				double p = 0;
-		double PMT = 30130;
+		
+		System.out.print("Enter the yearly tuition cost; ");
+		double PMT = input.newDouble();
+		
+		
+		System.out.print("Enter the repayment time(in years): ");
 		double n = 4;
 		//n is the term
 	
